@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B535A13C2CB5927200636C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B535A1182CB5927100636C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B535A11F2CB5927100636C14;
+			remoteInfo = GourmetLens;
+		};
+		B535A1462CB5927200636C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B535A1182CB5927100636C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B535A11F2CB5927100636C14;
+			remoteInfo = GourmetLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B535A1202CB5927100636C14 /* GourmetLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GourmetLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535A13B2CB5927200636C14 /* GourmetLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GourmetLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535A1452CB5927200636C14 /* GourmetLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GourmetLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B535A14D2CB5927200636C14 /* Exceptions for "GourmetLens" folder in "GourmetLens" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B535A11F2CB5927100636C14 /* GourmetLens */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B535A1222CB5927100636C14 /* GourmetLens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B535A14D2CB5927200636C14 /* Exceptions for "GourmetLens" folder in "GourmetLens" target */,
+			);
+			path = GourmetLens;
+			sourceTree = "<group>";
+		};
+		B535A13E2CB5927200636C14 /* GourmetLensTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GourmetLensTests;
+			sourceTree = "<group>";
+		};
+		B535A1482CB5927200636C14 /* GourmetLensUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GourmetLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B535A11D2CB5927100636C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535A1382CB5927200636C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535A1422CB5927200636C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B535A1172CB5927100636C14 = {
+			isa = PBXGroup;
+			children = (
+				B535A1222CB5927100636C14 /* GourmetLens */,
+				B535A13E2CB5927200636C14 /* GourmetLensTests */,
+				B535A1482CB5927200636C14 /* GourmetLensUITests */,
+				B535A1212CB5927100636C14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B535A1212CB5927100636C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B535A1202CB5927100636C14 /* GourmetLens.app */,
+				B535A13B2CB5927200636C14 /* GourmetLensTests.xctest */,
+				B535A1452CB5927200636C14 /* GourmetLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B535A11F2CB5927100636C14 /* GourmetLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535A14E2CB5927200636C14 /* Build configuration list for PBXNativeTarget "GourmetLens" */;
+			buildPhases = (
+				B535A11C2CB5927100636C14 /* Sources */,
+				B535A11D2CB5927100636C14 /* Frameworks */,
+				B535A11E2CB5927100636C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B535A1222CB5927100636C14 /* GourmetLens */,
+			);
+			name = GourmetLens;
+			packageProductDependencies = (
+			);
+			productName = GourmetLens;
+			productReference = B535A1202CB5927100636C14 /* GourmetLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B535A13A2CB5927200636C14 /* GourmetLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535A1532CB5927200636C14 /* Build configuration list for PBXNativeTarget "GourmetLensTests" */;
+			buildPhases = (
+				B535A1372CB5927200636C14 /* Sources */,
+				B535A1382CB5927200636C14 /* Frameworks */,
+				B535A1392CB5927200636C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535A13D2CB5927200636C14 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B535A13E2CB5927200636C14 /* GourmetLensTests */,
+			);
+			name = GourmetLensTests;
+			packageProductDependencies = (
+			);
+			productName = GourmetLensTests;
+			productReference = B535A13B2CB5927200636C14 /* GourmetLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B535A1442CB5927200636C14 /* GourmetLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535A1562CB5927200636C14 /* Build configuration list for PBXNativeTarget "GourmetLensUITests" */;
+			buildPhases = (
+				B535A1412CB5927200636C14 /* Sources */,
+				B535A1422CB5927200636C14 /* Frameworks */,
+				B535A1432CB5927200636C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535A1472CB5927200636C14 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B535A1482CB5927200636C14 /* GourmetLensUITests */,
+			);
+			name = GourmetLensUITests;
+			packageProductDependencies = (
+			);
+			productName = GourmetLensUITests;
+			productReference = B535A1452CB5927200636C14 /* GourmetLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B535A1182CB5927100636C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B535A11F2CB5927100636C14 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B535A13A2CB5927200636C14 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B535A11F2CB5927100636C14;
+					};
+					B535A1442CB5927200636C14 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B535A11F2CB5927100636C14;
+					};
+				};
+			};
+			buildConfigurationList = B535A11B2CB5927100636C14 /* Build configuration list for PBXProject "GourmetLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B535A1172CB5927100636C14;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B535A1212CB5927100636C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B535A11F2CB5927100636C14 /* GourmetLens */,
+				B535A13A2CB5927200636C14 /* GourmetLensTests */,
+				B535A1442CB5927200636C14 /* GourmetLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B535A11E2CB5927100636C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535A1392CB5927200636C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535A1432CB5927200636C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B535A11C2CB5927100636C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535A1372CB5927200636C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535A1412CB5927200636C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B535A13D2CB5927200636C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B535A11F2CB5927100636C14 /* GourmetLens */;
+			targetProxy = B535A13C2CB5927200636C14 /* PBXContainerItemProxy */;
+		};
+		B535A1472CB5927200636C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B535A11F2CB5927100636C14 /* GourmetLens */;
+			targetProxy = B535A1462CB5927200636C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B535A14F2CB5927200636C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q29XK7GV68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GourmetLens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cristiangaytan06-icloud.com.GourmetLens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B535A1502CB5927200636C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q29XK7GV68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GourmetLens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cristiangaytan06-icloud.com.GourmetLens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B535A1512CB5927200636C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B535A1522CB5927200636C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B535A1542CB5927200636C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q29XK7GV68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cristiangaytan06-icloud.com.GourmetLensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GourmetLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GourmetLens";
+			};
+			name = Debug;
+		};
+		B535A1552CB5927200636C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q29XK7GV68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cristiangaytan06-icloud.com.GourmetLensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GourmetLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GourmetLens";
+			};
+			name = Release;
+		};
+		B535A1572CB5927200636C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q29XK7GV68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cristiangaytan06-icloud.com.GourmetLensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GourmetLens;
+			};
+			name = Debug;
+		};
+		B535A1582CB5927200636C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q29XK7GV68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cristiangaytan06-icloud.com.GourmetLensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GourmetLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B535A11B2CB5927100636C14 /* Build configuration list for PBXProject "GourmetLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535A1512CB5927200636C14 /* Debug */,
+				B535A1522CB5927200636C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535A14E2CB5927200636C14 /* Build configuration list for PBXNativeTarget "GourmetLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535A14F2CB5927200636C14 /* Debug */,
+				B535A1502CB5927200636C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535A1532CB5927200636C14 /* Build configuration list for PBXNativeTarget "GourmetLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535A1542CB5927200636C14 /* Debug */,
+				B535A1552CB5927200636C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535A1562CB5927200636C14 /* Build configuration list for PBXNativeTarget "GourmetLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535A1572CB5927200636C14 /* Debug */,
+				B535A1582CB5927200636C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B535A1182CB5927100636C14 /* Project object */;
+}
